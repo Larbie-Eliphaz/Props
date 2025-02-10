@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine's Day Love</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courgette&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+        body {
+            background-color: #ffebef;
+            /* font-family: ; */
+            font-family: Courgette, Arial, sans-serif;
+        }
+        .carousel-inner {
+            text-align: center;
+        }
+        .carousel-item {
+            padding: 50px;
+            color: white;
+            background: linear-gradient(135deg, #ff758c, #ff7eb3);
+            border-radius: 15px;
+        }
+        .carousel-item h2 {
+            font-size: 2rem;
+        }
+
+        .comment-box {
+            max-width: 600px;
+            margin: auto;
+            background: linear-gradient(135deg, #ff758c, #ff7eb3);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: white;
+        }
+        .form-label, h2, h3 {
+            color: rgb(247, 152, 152);
+        }
+        .btn-primary {
+            background-color: #ff4d6d;
+            border-color: #ff4d6d;
+        }
+        .btn-primary:hover {
+            background-color: #ff3b5c;
+            border-color: #ff3b5c;
+        }
+        .list-group-item {
+            background: #fff;
+            border-radius: 5px;
+            margin-top: 5px;
+        }
+        .footer-fixed {
+            background: linear-gradient(135deg, #ff758c, #ff7eb3);
+        bottom: 0;
+        position: fixed;
+        z-index: 10;
+        width: 90%;
+    }
+
+    .footer-fixed a {
+        text-decoration: none !important;
+    }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center text-danger">Happy Valentine's Day, My Love!</h1>
+        <div id="loveCarousel" class="carousel slide mt-4" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h2 style="color: #fff;font-family: Courgette;">You are my heart's greatest joy! ❤️</h2>
+                </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h2 style="color: #fff;font-family: Courgette;">You are always in my mind living rent free! ❤️</h2>
+                </div>
+                <div class="carousel-item">
+                    <h2 style="color: #fff;font-family: Courgette;">Every moment with you is a blessing! 🌹</h2>
+                </div>
+                <div class="carousel-item">
+                    <h2 style="color: #fff;font-family: Courgette;">Your presence alone lights up my world! 💖</h2>
+                </div>
+                <div class="carousel-item">
+                    <h2 style="color: #fff;font-family: Courgette;">Forever and always, you are my one and only! 💞</h2>
+                </div>
+                <div class="carousel-item">
+                    <h2 style="color: #fff;font-family: Courgette;">The kind of emotional distress I go through if I try to distance myself, is unimaginable</h2>
+                </div>
+				<div class="carousel-item">
+                    <h2 style="color: #fff;font-family: Courgette;">Happy Val's Day, Your Highness👑</h2>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#loveCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#loveCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+    </div>
+<!-- ----------------------------------------------------------------------------------------- -->
+<!-- <div class="container mt-5">
+    <h2 class="text-center">Say anything you like to say below👇👇</h2>
+    <div class="comment-box">
+        <div class="mb-3">
+            <label for="comment" class="form-label"></label>
+            <textarea class="form-control" id="comment" rows="3"></textarea>
+        </div>
+        <button class="btn btn-primary w-100" onclick="postComment()">Post</button>
+    </div>
+    <h3 class="text-center mt-4">Said</h3>
+    <ul class="list-group mt-3" id="commentList"></ul>
+</div> -->
+<!-- --------------------------------------------------------------------------------------- -->
+<!-- <script>
+    function postComment() {
+        let commentText = document.getElementById("comment").value;
+        if (commentText.trim() === "") return;
+        
+        let commentList = document.getElementById("commentList");
+        let newComment = document.createElement("li");
+        newComment.classList.add("list-group-item");
+        newComment.textContent = commentText;
+        
+        commentList.appendChild(newComment);
+        document.getElementById("comment").value = "";
+    }
+</script> -->
+<!-- ----------------------------------------------------------------------------------------- -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <footer class="footer-fixed bg-dark text-light py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+
+            <!-- Designed by text -->
+            <div>
+                <span></span>
+            </div>
+
+            <!-- Social icons -->
+            <div>
+                <!-- <a href="https://www.linkedin.com/in/eliphaz-larbie-15b0782ab?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BNxy9%2BNdKT06oae7rtspZqw%3D%3D" target="_blank" class="text-light me-3">
+                    <span id="no-decor"><i class="bi bi-linkedin"></i> LinkedIn</span> LinkedIn Icon -->
+                </a>
+                <a href="https://wa.me/+233508348125" target="_blank" class="text-light me-3">
+                    <span id="no-decor"><i class="bi bi-whatsapp"></i> WhatsApp</span> <!-- WhatsApp Icon -->
+                </a>
+                <a href="mailto:eliphazlarbie3@gmail.com" class="text-light me-3">
+                    <span id="no-decor"><i class="bi bi-envelope"></i> Send me an Email</span> <!-- Email Icon -->
+                </a>
+            </div>
+
+            <!-- Copyright -->
+            <div>
+                <span>&copy; <?php echo date("Y"); ?> Eliphaz 2025</span>
+            </div>
+
+        </div>
+    </footer>
+</body>
+</html>

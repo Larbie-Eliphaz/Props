@@ -1,0 +1,46 @@
+#body {
+  /* background: rgb(224, 219, 219); */
+  align-items: center;
+  justify-content: center;
+  font-family: serif;
+  height: 100vh;
+  width: 100vw;
+}
+
+#display-msg {
+  background-color: rgb(253, 165, 180);
+  border-radius: 3%;
+  color: #fff;
+  font-family: Courgette;
+  position: fixed;
+  top: -100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  width: 40%;
+  padding: 3% 1% 2%;
+  transition: 0.5s;
+  visibility: hidden;
+}
+
+#intro {
+  border-radius: 5%;
+  font-size: 1.2em;
+  display: block !important;
+  width: 50% !important;
+  margin: 15% auto 0 auto;
+  background: #fff;
+  align-items: center;
+  padding: 3%;
+  padding-top: 4%;
+}
+
+#display-msg.active {
+  visibility: visible;
+  top: 50%;
+}
+
+.btn-success:hover {
+  letter-spacing: 0.1em;
+  background-color: greenyellow;
+}
